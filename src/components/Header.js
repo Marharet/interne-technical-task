@@ -18,7 +18,7 @@ export default function Header() {
             </div>
 
             <div className="header-second">
-                <img src={require(`../img/Logo.png`)}></img>
+                <img src={require(`../img/Logo.png`)}/>
                 <div className="nav-box">
                     <p>новинки</p>
                     <p>чоловіки</p>

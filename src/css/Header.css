@@ -14,6 +14,7 @@
     align-items: center;
     padding-right: 10vh;
     padding-left: 10vh;
+    font-size: 2vh;
 }
 .header-first p {
     padding: 2vh 1vh;
@@ -32,7 +33,9 @@
     align-items: center;
     padding: 3vh 10vh;
     height: 12vh;
-
+}
+.header-second img{
+    height: 2.6vh;
 }
 .nav-box{
     display: flex;
@@ -41,6 +44,7 @@
     align-items: center;
     text-transform: uppercase;
     color: #343434;
+    font-size: 2vh;
 }
 .nav-box p{
     margin-right: 5vh;
