@@ -1,6 +1,7 @@
 import React from "react";
 import { IoIosArrowRoundBack } from "react-icons/io";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import { GoHeart } from "react-icons/go";
 
 import data from "./goodsAndPrices.js"
 
@@ -8,8 +9,6 @@ import "../css/Box3.css"
 import "../css/Box5.css"
 
 export default function Box3() {
-
-
   
   return (
     <div className="box5-container" >
@@ -26,6 +25,7 @@ export default function Box3() {
           {data.map((item) => (
             <div key={item.id} className="item">
               <img src={require(`../img/${item.img}`)} alt={item.goodsTitle} />
+              <button className="liked-goods"><GoHeart/></button>
               <h4>{item.goodsTitle}</h4>
               <p className="subtitles">{item.category}</p>
               <p className="subtitles">{item.assets}</p>

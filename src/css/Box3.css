@@ -12,10 +12,13 @@
 
 .item{
     margin: 0 9vh;
+    position: relative; 
 }
 
 .goods-container img{
     margin-bottom: 2vh;
+    height: 59vh;
+    position: relative;
 }
 
 .goods-container h4{
@@ -37,4 +40,19 @@
     color: #4aaa4e;
     font-weight: 700;
     font-size: 2.6vh;
+}
+
+.liked-goods{
+    position: absolute; 
+    top: 1.5vh;
+    right: 1.5vh; 
+    background-color: #fff;
+    padding: 0.8vh 1.1vh;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2.6vh;
+    color: #343434; 
+    border: 1px solid #343434; 
+    cursor: pointer; 
+    line-height: 2.6vh; 
 }
